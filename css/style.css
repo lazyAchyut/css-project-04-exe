@@ -1,0 +1,212 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-container{
+	width: 60.9375%;
+	margin:0px auto;
+	border: 1px solid red;
+}
+
+.logo-holder{
+	float: left;
+	padding: 24px 0 36px 0;
+}
+
+.nav-holder{
+	float: left;
+	background-color:white;
+	padding-left:6.153846153846154%;
+	padding: 24px 0px 0px 100px; 
+}
+
+.nav-holder ul{
+	list-style: none;
+}
+
+.nav-holder ul li{
+	float: left;
+	display: block;
+	/*line-height: 101px;*/
+	list-style: none;
+	/*padding:0px 13px 0px 28px;*/
+	padding-right:13px;
+	padding-left:28px;
+}
+
+.nav-holder ul li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	float:left;
+	font-weight: 900;
+	color:black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.nav-holder .dropdown{
+	background: url("../images/arrow-down-black.png") no-repeat;
+	background-position: right, 50%;
+	padding-right:16px;
+}
+.nav-holder .dropdown.active{
+    background: url("../images/arrow-down.png") no-repeat;
+	background-position: right, 50%;
+	border-top: 1px solid red;
+	/*position:absolute;*/
+	/*padding-right:16px;	*/
+}
+.nav-holder .active a{
+	color:#e6493a;
+}
+.dropdown:hover{
+    background: url("../images/arrow-down.png") no-repeat;
+	background-position: right, 50%;
+	color:#e6493a;	
+	
+}
+.nav-holder li:hover a{
+	color:#e6493a;
+}
+/*.li-active{
+	border-top:1px solid #e6493a;
+	width:6px;
+	position:absolute;
+	top:33px;
+	}
+*/
+.drop-icon{
+	background: url("../images/arrow-down-black.png") no-repeat;
+	padding-right:16px;
+}
+
+
+.top-banner-content{
+	padding-top: 40px;
+    padding-bottom: 56px;
+    color: #fff;
+    text-align: center;
+    line-height: 39px;
+    background-image: url("../images/top-banner-up-arrow.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.top-banner-heading{
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.top-banner-sub-heading{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+/*services css*/
+.services-collection{
+    margin: 0 auto;
+	max-width: 73.125em;
+    padding: 80px 0;
+}
+
+.services-collection a{
+	text-decoration: none;
+}
+
+.service-wrp{
+	background-image: url("../images/red-line.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	float: left;
+	width: 25%;
+	padding-top: 30px;
+}
+
+.service-wrp h1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 130px 0 20px 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.service-wrp p{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #959595;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+}
+
+.service-design{
+	background-image: url("../images/clean-design.png");
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+.service-brand{
+	background-image: url("../images/brand.png");
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+.service-responsive{
+	background-image: url("../images/responsive.png");
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+.service-development{
+	background-image: url("../images/development.png");
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+
+.service-wrp:hover h1{
+	color:#e5493a;
+}
+
+.service-wrp:hover p{
+	color:#000;
+}
+
+.services-collection .service-design:hover{
+	background-image: url("../images/clean-design-hover.png");
+}
+.services-collection .service-brand:hover{
+	background-image: url("../images/brand-hover.png");
+}
+.services-collection .service-responsive:hover{
+	background-image: url("../images/responsive-hover.png");
+}
+.services-collection .service-development:hover{
+	background-image: url("../images/development-hover.png");
+}
+
+
+
+
+
+
+/*clear fix*/
+/*clear fix*/
+.clearfix:before, .clearfix:after{
+	content:" ";
+	display:table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	zoom:1; /* for ie 6 and 6 */
+}

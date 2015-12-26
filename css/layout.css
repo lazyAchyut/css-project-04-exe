@@ -1,0 +1,34 @@
+.page-wrp{
+	width: 100%;
+}
+
+.header-wrp{
+	max-width: 120em;
+}
+
+.header{
+	width: 100%;
+}
+
+.top-banner-wrp{
+	width: 100%;
+	background-color: #e5493a;
+}
+
+.top-banner-container{
+	max-width: 120em;
+	margin: 0 auto;
+}
+
+.top-banner-content{
+	margin: 0 auto;
+}
+
+.services-wrp{
+	width:100%;	
+}
+
+.services-container{
+	max-width: 120em;
+	margin: 0 auto;
+}
